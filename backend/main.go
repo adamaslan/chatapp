@@ -60,7 +60,7 @@ func serveWs(w http.ResponseWriter, r *http.Request) {
 
 func setupRoutes() {
   http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-        fmt.Fprintf(w, "Simple Server")
+        fmt.Fprintf(w, "Simp Server")
   })
   // mape our `/ws` endpoint to the `serveWs` function
     http.HandleFunc("/ws", serveWs)
