@@ -1,5 +1,5 @@
 //index.js
 
-import Header from "./header.jsx";
+import Header from "./header.js";
 
 export default Header;
