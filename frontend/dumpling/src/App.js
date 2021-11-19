@@ -1,12 +1,9 @@
-//App.js
-import React from "react";
+// App.js
+import React, { Component } from "react";
 import "./App.css";
 import { connect, sendMsg } from "./api";
 
 import Header from "./components/Header/Header";
-//import Header from './components/Header/Header';
-//tears!
-// ...
 
 class App extends Component {
   constructor(props) {
@@ -19,9 +16,6 @@ class App extends Component {
     sendMsg("hello");
   }
 
-  // App.js
-  // Import our new component from it's relative path
-  // ...
   render() {
     return (
       <div className="App">
